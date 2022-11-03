@@ -1,0 +1,148 @@
+Opening monitor command playback file: c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.vs
+ 
+*** VICE Version 3.6.1 ***
+ 
+Welcome to x64sc, the free portable C64 Emulator.
+ 
+Current VICE team members:
+Martin Pottendorfer, Marco van den Heuvel, Fabrizio Gennari, Groepaz, 
+Errol Smith, Ingo Korb, Olaf Seibert, Marcus Sutton, Kajtar Zsolt, AreaScout, 
+Bas Wassink, Michael C. Martin, Christopher Phillips, David Hogan, 
+Empathic Qubit, Roberto Muscedere, June Tate-Gans, Pablo Roldan.
+ 
+This is free software with ABSOLUTELY NO WARRANTY.
+See the "About VICE" command for more info.
+ 
+random seed was: 0x63637b47
+command line was: C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\x64sc.exe -autostartprgmode 1 -autostart c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg -moncommands c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.vs
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\C64\kernal'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\C64\basic'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\C64\chargen'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\PRINTER\mps803'.
+Palette: Loading palette `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\PRINTER\mps803.vpl'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\PRINTER\nl10-cbm'.
+Palette: Loading palette `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\PRINTER\nl10.vpl'.
+NL10: Printer driver initialized.
+Palette: Loading palette `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\PRINTER\1520.vpl'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\DRIVES\dos1540'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\DRIVES\dos1541'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\DRIVES\d1541II'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\DRIVES\dos1570'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\DRIVES\dos1571'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\DRIVES\dos1581'.
+DriveROM: Error - 2000 ROM image not found. Hardware-level 2000 emulation is not available.
+DriveROM: Error - 4000 ROM image not found. Hardware-level 4000 emulation is not available.
+DriveROM: Error - CMDHD ROM image not found. Hardware-level CMDHD emulation is not available.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\DRIVES\dos2031'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\DRIVES\dos2040'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\DRIVES\dos3040'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\DRIVES\dos4040'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\DRIVES\dos1001'.
+Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\DRIVES\dos9000'.
+Drive: Finished loading ROM images.
+VIC-II: Initializing chip model "MOS8565" (63 cycles per line, 312 raster lines).
+using GTK3 backend: DirectX
+Created render thread 0
+Render thread initialised
+Sound: Available sound devices: dx wmm dummy fs dump wav voc iff aiff mp3 flac ogg soundmovie
+Keyboard: Loading keymap `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\C64\gtk3_sym.vkm'.
+AUTOSTART: Autodetecting image type of `c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg'.
+Filesystem Image Probe: Error - Import GCR: Unknown GCR image version 52.
+Filesystem Image: Unknown disk image `c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg'.
+Tape: Error - Cannot open file `c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg'
+Error - CRT header invalid.
+CART: 'c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg' is not a valid CRT file.
+AUTOSTART: Loading PRG file `c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg' with direct RAM injection.
+AUTOSTART: Resetting the machine to autostart '*'
+VIC-II: VSP Bug: safe channels are: 056. Emulation of memory corruption is disabled.
+AUTOSTART: Turning Warp mode on.
+AUTOSTART: `c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg' recognized as program/p00 file.
+Main CPU: starting at ($FFFC).
+Main CPU: RESET.
+Increasing trap_func array size to 1 with 1 to run
+Monitor playback command: al C:25a6 .eorline
+Unit 8: RESET.
+Unit 9: RESET.
+Monitor playback command: al C:266f .l1
+Monitor playback command: al C:267e .rolluj
+Monitor playback command: al C:251c .cpycol
+Monitor playback command: al C:2675 .l2
+Monitor playback command: al C:9cb .wskcol
+Monitor playback command: al C:80b .upstartEnd
+Monitor playback command: al C:25da .copyline
+Monitor playback command: al C:2567 .ifspace
+Monitor playback command: al C:2547 .petla
+Monitor playback command: al C:9c7 .wsktekst
+Monitor playback command: al C:1003 .music_play
+Monitor playback command: al C:9cc .fclrcol
+Monitor playback command: al C:2597 .nxtcol
+Monitor playback command: al C:266b .clrscroll
+Monitor playback command: al C:262c .bez
+Monitor playback command: al C:1000 .music_init
+Monitor playback command: al C:25c3 .clrlogo
+Monitor playback command: al C:25fd .ryskol
+Monitor playback command: al C:2581 .rysuj
+Monitor playback command: al C:263f .nullwskt
+Monitor playback command: al C:9ca .spacja
+Monitor playback command: al C:25f7 .rstflagp
+Monitor playback command: al C:2621 .nxtpixel
+Monitor playback command: al C:9c9 .znak
+Monitor playback command: al C:2501 .start
+Monitor playback command: al C:2549 .raster
+Monitor playback command: al C:25ce .cl2
+Monitor playback command: al C:25c5 .cl1
+Monitor playback command: al C:259d .nxt
+Monitor playback command: al C:2628 .right
+Monitor playback command: al C:25a8 .e1
+Monitor playback command: al C:25b4 .e2
+Monitor playback command: al C:265c .incwskt
+Monitor playback command: al C:9cd .dlspacji
+Monitor playback command: al C:25f1 .rstwskcol
+Monitor playback command: al C:264a .loadchar
+Monitor playback command: al C:25e5 .cli2
+Monitor playback command: al C:2633 .zapisz
+Monitor playback command: al C:25dc .cli1
+Closed monitor command playback file: c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.vs
+Sound: Opened device `dx', speed 48000Hz, fragment size 2.67ms, buffer size 32.00ms
+reSID: MOS8580, filter off, sampling rate 48000Hz - fast
+Sync reset
+AUTOSTART: Injecting program data at $0801 (size $5b3f)
+AUTOSTART: Ready
+AUTOSTART: Turning Warp mode off.
+AUTOSTART: Starting program.
+AUTOSTART: Restoring FileSystemDevice8 to 1.
+AUTOSTART: Restoring FSDevice8ConvertP00 to 1.
+AUTOSTART: Restoring FSDeviceLongNames to 0.
+AUTOSTART: Done.
+Sync reset
+Initiating render thread 0 shutdown
+Joining render thread 0 ...
+Render thread shutdown
+Joined render thread 0.
+
+Resources with non default values:
+LogFileName="intro-vice.log"
+SaveResourcesOnExit=1
+MonitorXPos=592
+MonitorYPos=303
+MonitorWidth=736
+MonitorHeight=434
+Window0Height=642
+Window0Width=720
+Window0Xpos=828
+Window0Ypos=138
+SidResidSampling=0
+SidFilters=0
+AutostartPrgMode=1
+Drive9Type=1542
+MonitorServer=1
+
+reconstructed commandline options (might be incomplete):
+-default -saveres -monitorxpos "592" -monitorypos "303" -monitorwidth "736" -monitorheight "434" -residsamp "0" +sidfilters -autostartprgmode "1" -drive9type "1542" -remotemonitor
+
+VICE thread initiating shutdown
+VICE thread is exiting
+VICE thread has been joined.
+Writing configuration file `C:\Users\pietr\AppData\Roaming\vice\vice.ini'.
+VIC-II: VSP Bug: safe channels are: 01356. Emulation of memory corruption is disabled.
+Sound: Closing device `dx'
