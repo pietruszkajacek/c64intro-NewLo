@@ -13,7 +13,7 @@ Empathic Qubit, Roberto Muscedere, June Tate-Gans, Pablo Roldan.
 This is free software with ABSOLUTELY NO WARRANTY.
 See the "About VICE" command for more info.
  
-random seed was: 0x63637b47
+random seed was: 0x63638396
 command line was: C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\x64sc.exe -autostartprgmode 1 -autostart c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg -moncommands c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.vs
 Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\C64\kernal'.
 Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\C64\basic'.
@@ -54,7 +54,7 @@ Error - CRT header invalid.
 CART: 'c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg' is not a valid CRT file.
 AUTOSTART: Loading PRG file `c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg' with direct RAM injection.
 AUTOSTART: Resetting the machine to autostart '*'
-VIC-II: VSP Bug: safe channels are: 056. Emulation of memory corruption is disabled.
+VIC-II: VSP Bug: safe channels are: 023457. Emulation of memory corruption is disabled.
 AUTOSTART: Turning Warp mode on.
 AUTOSTART: `c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg' recognized as program/p00 file.
 Main CPU: starting at ($FFFC).
@@ -144,5 +144,5 @@ VICE thread initiating shutdown
 VICE thread is exiting
 VICE thread has been joined.
 Writing configuration file `C:\Users\pietr\AppData\Roaming\vice\vice.ini'.
-VIC-II: VSP Bug: safe channels are: 01356. Emulation of memory corruption is disabled.
+VIC-II: VSP Bug: safe channels are: 023567. Emulation of memory corruption is disabled.
 Sound: Closing device `dx'
