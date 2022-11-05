@@ -1,19 +1,18 @@
 
 BasicUpstart2(start)
 
-.var pickolor = $5f40
-.var ekrancol = $6800
+.const pickolor     = $5f40
+.const ekrancol     = $6800
+.const fonts        = $3000
 
-.var fonts    = $3000
-.var proll    = $0d38 // $5f38
-.var tekst    = $0900
+.var proll          = $0d38 // $5f38
 
 .var ptrchar  = $fb //(2)
 .var ptrcol   = $fd //(2)
 
-            * = $2500 "Main Program"
-            sei
-start:      lda #$3b
+            *=$2500 "Main Program"
+start:      sei
+            lda #$3b
             sta $d011
             lda #$c8
             sta $d016
@@ -24,27 +23,26 @@ start:      lda #$3b
             lda #$a0
             sta $d018
             ldx #$00
-cpycol:	    lda pickolor,x
-            sta ekrancol,x
-            lda pickolor+$0100,x
-            sta ekrancol+$0100,x
-            lda pickolor+$0200,x
-            sta ekrancol+$0200,x
-            lda pickolor+$0300,x
-            sta ekrancol+$0300,x
+cpycol:	    lda pickolor + 0*$100,x
+            sta ekrancol + 0*$100,x
+            lda pickolor + 1*$100,x
+            sta ekrancol + 1*$100,x
+            lda pickolor + 2*$100,x
+            sta ekrancol + 2*$100,x
+            lda pickolor + 3*$100,x
+            sta ekrancol + 3*$100,x
             inx
             bne cpycol
             lda #$0c
             sta $d020
-
             jsr copyline
 
             lda #$00
-            jsr $1000
+            jsr music_init
 
             jsr clrscroll
 
-petla:      lda #$e0
+petla:      lda #$f0
 raster:     cmp $d012
             bne raster
             inc $d020
@@ -570,7 +568,6 @@ l2:         sta $0d00,x
             .label music_init =*
             .label music_play =*+3
             .import binary "ode to 64.bin"
-
 //----------------------------------------------------------
             *=$4000 "Logo"
             .import binary "LOGO.prg", 2
@@ -579,14 +576,15 @@ l2:         sta $0d00,x
             .import binary "PROPFONT.prg", 2
 
             *=$0900 "Text"
-            .text "Hello and welcome! ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789. Code: Jacek 'Quasar' Pietruszka.                   "
-            .text "                                                                "
+            .label tekst =*
+            .text "Hello and welcome! ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789. Code, logo by Jacek 'Quasar' Pietruszka."
+            .text "                                                                                                                   "
             .byte $ff
 
-//dataur:   !byte $81,$02,$03
-wsktekst: .word tekst
-znak:     .byte $00
-spacja:   .byte $00
-wskcol:   .byte $07
-fclrcol:  .byte $00
-dlspacji: .byte $05
+dataur:     .byte $81,$02,$03
+wsktekst:   .word tekst
+znak:       .byte $00
+spacja:     .byte $00
+wskcol:     .byte $07
+fclrcol:    .byte $00
+dlspacji:   .byte $05

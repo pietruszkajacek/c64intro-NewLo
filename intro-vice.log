@@ -13,7 +13,7 @@ Empathic Qubit, Roberto Muscedere, June Tate-Gans, Pablo Roldan.
 This is free software with ABSOLUTELY NO WARRANTY.
 See the "About VICE" command for more info.
  
-random seed was: 0x63638396
+random seed was: 0x6366404f
 command line was: C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\x64sc.exe -autostartprgmode 1 -autostart c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg -moncommands c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.vs
 Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\C64\kernal'.
 Loading system file `C:\Users\pietr\Downloads\Nowy folder (3)\GTK3VICE-3.6.1-win64\bin\..\C64\basic'.
@@ -54,7 +54,7 @@ Error - CRT header invalid.
 CART: 'c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg' is not a valid CRT file.
 AUTOSTART: Loading PRG file `c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg' with direct RAM injection.
 AUTOSTART: Resetting the machine to autostart '*'
-VIC-II: VSP Bug: safe channels are: 023457. Emulation of memory corruption is disabled.
+VIC-II: VSP Bug: safe channels are: 01346. Emulation of memory corruption is disabled.
 AUTOSTART: Turning Warp mode on.
 AUTOSTART: `c:\Users\pietr\Downloads\Nowy folder (3)\Commodore C64\Temp\Intro NewLo!\intro NEWLO!.prg' recognized as program/p00 file.
 Main CPU: starting at ($FFFC).
@@ -67,14 +67,14 @@ Monitor playback command: al C:266f .l1
 Monitor playback command: al C:267e .rolluj
 Monitor playback command: al C:251c .cpycol
 Monitor playback command: al C:2675 .l2
-Monitor playback command: al C:9cb .wskcol
+Monitor playback command: al C:9f6 .wskcol
 Monitor playback command: al C:80b .upstartEnd
 Monitor playback command: al C:25da .copyline
 Monitor playback command: al C:2567 .ifspace
 Monitor playback command: al C:2547 .petla
-Monitor playback command: al C:9c7 .wsktekst
+Monitor playback command: al C:9f2 .wsktekst
 Monitor playback command: al C:1003 .music_play
-Monitor playback command: al C:9cc .fclrcol
+Monitor playback command: al C:9f7 .fclrcol
 Monitor playback command: al C:2597 .nxtcol
 Monitor playback command: al C:266b .clrscroll
 Monitor playback command: al C:262c .bez
@@ -83,22 +83,24 @@ Monitor playback command: al C:25c3 .clrlogo
 Monitor playback command: al C:25fd .ryskol
 Monitor playback command: al C:2581 .rysuj
 Monitor playback command: al C:263f .nullwskt
-Monitor playback command: al C:9ca .spacja
+Monitor playback command: al C:9f5 .spacja
 Monitor playback command: al C:25f7 .rstflagp
 Monitor playback command: al C:2621 .nxtpixel
-Monitor playback command: al C:9c9 .znak
-Monitor playback command: al C:2501 .start
+Monitor playback command: al C:9f4 .znak
+Monitor playback command: al C:2500 .start
 Monitor playback command: al C:2549 .raster
 Monitor playback command: al C:25ce .cl2
 Monitor playback command: al C:25c5 .cl1
+Monitor playback command: al C:900 .tekst
 Monitor playback command: al C:259d .nxt
 Monitor playback command: al C:2628 .right
 Monitor playback command: al C:25a8 .e1
 Monitor playback command: al C:25b4 .e2
 Monitor playback command: al C:265c .incwskt
-Monitor playback command: al C:9cd .dlspacji
+Monitor playback command: al C:9f8 .dlspacji
 Monitor playback command: al C:25f1 .rstwskcol
 Monitor playback command: al C:264a .loadchar
+Monitor playback command: al C:9ef .dataur
 Monitor playback command: al C:25e5 .cli2
 Monitor playback command: al C:2633 .zapisz
 Monitor playback command: al C:25dc .cli1
@@ -123,8 +125,9 @@ Joined render thread 0.
 Resources with non default values:
 LogFileName="intro-vice.log"
 SaveResourcesOnExit=1
-MonitorXPos=592
-MonitorYPos=303
+ConfirmOnExit=0
+MonitorXPos=193
+MonitorYPos=358
 MonitorWidth=736
 MonitorHeight=434
 Window0Height=642
@@ -138,11 +141,11 @@ Drive9Type=1542
 MonitorServer=1
 
 reconstructed commandline options (might be incomplete):
--default -saveres -monitorxpos "592" -monitorypos "303" -monitorwidth "736" -monitorheight "434" -residsamp "0" +sidfilters -autostartprgmode "1" -drive9type "1542" -remotemonitor
+-default +confirmonexit -saveres -monitorxpos "193" -monitorypos "358" -monitorwidth "736" -monitorheight "434" -residsamp "0" +sidfilters -autostartprgmode "1" -drive9type "1542" -remotemonitor
 
 VICE thread initiating shutdown
 VICE thread is exiting
 VICE thread has been joined.
 Writing configuration file `C:\Users\pietr\AppData\Roaming\vice\vice.ini'.
-VIC-II: VSP Bug: safe channels are: 023567. Emulation of memory corruption is disabled.
+VIC-II: VSP Bug: safe channels are: 0267. Emulation of memory corruption is disabled.
 Sound: Closing device `dx'
